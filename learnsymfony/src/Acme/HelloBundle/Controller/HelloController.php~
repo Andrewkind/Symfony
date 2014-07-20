@@ -4,7 +4,7 @@ use Symfony\Component\HttpFoundation\Response;
 use namespace Acme\HelloBundle\Controller;
 
 
-class HelloController extends Symfony\Bundle\FrameworkBundle\Controller\Controller
+class HelloController extends Controller
 {
     public function indexAction($name)
     {
