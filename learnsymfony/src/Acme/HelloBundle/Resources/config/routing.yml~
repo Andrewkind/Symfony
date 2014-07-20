@@ -1,0 +1,3 @@
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: Acme/HelloBundle:Hello:index }
